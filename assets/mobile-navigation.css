@@ -1,0 +1,50 @@
+.viaje-mobile-menu {
+    width: min(90vw, 26rem);
+    max-height: 85dvh;
+    margin: auto;
+    padding: 1.5rem;
+    overflow-y: auto;
+    color: #29231e;
+    background: #faf6ef;
+    border: 0;
+    border-radius: 1.25rem;
+    font-family: "Manrope", sans-serif;
+}
+
+.viaje-mobile-menu::backdrop {
+    background: rgb(25 20 16 / 65%);
+}
+
+.viaje-mobile-menu h2 {
+    margin: 0 0 1rem;
+    font-size: 1.5rem;
+}
+
+.viaje-mobile-menu nav {
+    display: grid;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.viaje-mobile-menu button {
+    min-height: 48px;
+    padding: 0.75rem 1rem;
+    color: inherit;
+    background: transparent;
+    border: 1px solid #c9bdae;
+    border-radius: 0.75rem;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+
+.viaje-mobile-menu .viaje-menu-close {
+    color: #fff;
+    background: #c84412;
+    border-color: #c84412;
+}
+
+.viaje-mobile-menu button:focus-visible {
+    outline: 3px solid #c84412;
+    outline-offset: 3px;
+}
